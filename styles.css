@@ -1,0 +1,253 @@
+html {
+    text-align: center;
+    background-color: #EEE;
+}
+
+body {
+    background: url("images/bg.png");
+    background-color: #8e9690;
+    margin: 0 auto;
+    max-width: 70em;
+    font-family: "Montserrat", "Nunito", sans-serif;
+    line-height: 1.5;
+    padding: 2.5em 0;
+    color: #566b78;
+    border-left: 20px solid rgb(85, 125, 85);
+    border-right: 20px solid rgb(85, 125, 85);
+}
+
+h1, h2, strong {
+  color: yellowgreen;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+/* title blur CSS */
+
+#bg, #title-bg {
+    background-image: url("images/header-image.jpg");
+    background-repeat: no-repeat;
+    background-size: 70em auto;
+}
+
+#bg {
+    background-position: center top;
+    padding: 70px 90px 120px 90px;
+    border-top: 6px solid rgb(155, 195, 155);
+    border-bottom: 6px solid rgb(155, 195, 155);
+}
+
+#title-container {
+    position: relative;
+}
+
+#title-bg {
+    /* Absolutely position it, but stretch it to all four corners, then put it just behind #title's z-index */
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 99;
+    background-size: 70em auto;
+
+    /* Pull the background 70px higher to the same place as #bg's */
+    background-position: center -70px;
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+
+/* End of title blur CSS */
+
+#title-box {
+    position: relative;
+    z-index: 100;
+    padding: 30px 20px 10px;
+    background: rgba(34, 34, 34, 0.65);
+    border: 6px solid rgb(155, 195, 155);
+    margin: auto auto 4.5em;
+}
+
+#title {
+    font-size: 300%;
+    color: #e1e1e1;
+    letter-spacing: 2px;
+}
+
+li a {
+    position: relative;
+    margin: auto;
+    width: 12em;
+    border: 2px solid rgb(155, 195, 155);
+    border-radius: 1000px;
+    background: rgba(34, 34, 34, 0.65);
+    color: #e1e1e1;
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    z-index: 100;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+}
+
+.author {
+    color: #e1e1e1;
+    margin-left: 0.4em;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header {
+    line-height: 1.2;
+    padding: 0;
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+    margin: 0 5vw;
+    list-style: none;
+}
+
+li {
+    margin: 25px 10px;
+    display: inline-block;
+}
+
+li a:hover {
+    background: rgb(155, 195, 155);
+    color: rgb(34, 34, 34);
+}
+
+/* Breed Header CSS */
+
+.fb-header-container, .sam-header-container, .bh-header-container, .aus-header-container, 
+.bas-header-container, .shi-header-container, .pug-header-container {
+    padding: 3em 8em 1em;
+    border: 6px solid rgb(155, 195, 155);
+    border-left-width: 0;
+    border-right-width: 0;
+    margin: 4em 0;
+}
+
+.fb-header-container {
+    background: linear-gradient(rgba(34, 34, 34, 0.65), rgba(34, 34, 34, 0.65)), url("images/french-bulldog-header.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sam-header-container {
+    background: linear-gradient(rgba(34, 34, 34, 0.65), rgba(34, 34, 34, 0.65)), url("images/samoyed-header.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bh-header-container {
+    background: linear-gradient(rgba(34, 34, 34, 0.65), rgba(34, 34, 34, 0.65)), url("images/basset-hound-header.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.aus-header-container {
+    background: linear-gradient(rgba(34, 34, 34, 0.65), rgba(34, 34, 34, 0.65)), url("images/aus-shepherd-header.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bas-header-container {
+    background: linear-gradient(rgba(34, 34, 34, 0.65), rgba(34, 34, 34, 0.65)), url("images/basenji-header.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.shi-header-container {
+    background: linear-gradient(rgba(34, 34, 34, 0.65), rgba(34, 34, 34, 0.65)), url("images/shiba-inu-header.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pug-header-container {
+    background: linear-gradient(rgba(34, 34, 34, 0.65), rgba(34, 34, 34, 0.65)), url("images/pug-header.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Breed Content CSS */
+
+.quote-container {
+    position: relative;
+    background-color: rgba(34, 34, 34, 0.33);
+    width: 70em;
+    right: 128px;
+}
+
+.breed-quote {
+    font-family: "Glegoo", serif;
+    padding: 0.5em 0.9em;
+    text-transform: lowercase;
+    color: #e1e1e1;
+    font-style: italic;
+    letter-spacing: 0.2em;
+}
+
+.breed-blurb {
+    position: relative;
+    background-color: rgba(34, 34, 34, 0.65);
+    font-family: "Glegoo", sans-serif;
+    color: #e1e1e1;
+    padding: 1.5em;
+    line-height: 2.1;
+    margin: 5% 10%;
+    font-size: 150%;
+    text-align: left;
+    border: 1px solid rgb(85, 125, 85);
+    border-left: 5px solid rgb(155, 195, 155);
+    border-radius: 6px;
+}
+
+.profile-pic {
+    float: left;
+    border: 3px solid rgb(155, 195, 155);
+    border-radius: 100%;
+    margin-right: 3%;
+}
+
+.profile-link {
+    margin: 3.25em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 134px;
+    height: 134px;
+    border: 3px solid transparent;
+    border-radius: 1000px;
+    text-align: center;
+    line-height: 134px;
+    font-size: 0.5em;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    z-index: 100;
+    text-decoration: none;
+    color: transparent;
+    transition: none 300ms ease-out;
+    transition-property: color, background;
+}
+
+.profile-link:hover {
+    background-color: rgba(34, 34, 34, 0.8);
+    color: #e1e1e1;
+}
+
+#copyright {
+    margin: 6em 20em 2em;
+    padding: 0.5em;
+    border: 1.5px dashed #566b78;
+    border-radius: 8px;
+}
+

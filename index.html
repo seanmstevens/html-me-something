@@ -2,12 +2,20 @@
 <html>
     <head>
         <title>The Definitive Good Dog List</title>    
+        <link type = "text/css" rel = "stylesheet" href = "styles.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Glegoo" rel="stylesheet">
     </head>
     <body>
         <main>
-            <div>
-                <header>
-                    <h1>The Definitive Good Dog List</h1>
+            <header>
+                <div id="bg">
+                    <div id="title-container">
+                        <div id="title-bg"></div>
+                        <div id="title-box">
+                            <img src = "typography/title.png" />
+                            <p class = "author">Sean Stevens</p>
+                        </div>
+                    </div>
                     <nav>
                         <ul>
                             <li><a href = "#french-bulldog">French Bulldog</a></li>
@@ -19,160 +27,144 @@
                             <li><a href = "#pug">Pug</a></li>
                         </ul>
                     </nav>
-                </header>
-            </div>
+                </div>
+            </header>
             <article>
                 <section>
                     <a name = "french-bulldog"></a>
-                    <h2>French Bulldog</h2>
-                    <h3>"Something something something"</h3>
-                    <picture>
-                        <img class = "left-image" src = "images/french-bulldog-1.jpg"/>
-                        <a href = "http://www.akc.org/dog-breeds/french-bulldog/">
-                            <img class = "center-image" src = "images/french-bulldog-2.jpg"/>
-                        </a>
-                        <img class = "right-image" src = "images/french-bulldog-3.jpg"/>
-                    </picture>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin 
-                    efficitur placerat. Aliquam tincidunt, lacus eu pharetra tristique, mauris purus 
-                    iaculis neque, eu commodo diam augue a arcu. Pellentesque habitant morbi tristique 
-                    senectus et netus et malesuada fames ac turpis egestas. In sit amet malesuada diam, 
-                    eu mollis elit. Fusce ut mi nec erat faucibus sagittis a interdum magna. Integer 
-                    molestie consequat tortor, et varius felis ullamcorper in. Nullam ut ante at ex 
-                    aliquet gravida non a leo. Nunc non pellentesque diam.
+                    <div class = "fb-header-container">
+                        <img class = "breed-header-img" src = "typography/french-bulldog.png"/>
+                        <div class = "quote-container">
+                            <h3 class = "breed-quote">"like a baguette with legs"</h3>
+                        </div>
+                    </div>
+                    <p class = "breed-blurb">
+                        <img class = "profile-pic" src = "images/profile/french-bulldog-profile.png"/>
+                        <a class = "profile-link" target = "_blank" 
+                        href = "http://www.akc.org/dog-breeds/french-bulldog/">click for info</a>
+                    Let's just start with the obvious choice shall we? Have you ever seen anything as cute as a 
+                    French bulldog puppy? <em>No you have not.</em> I'm a softie when it comes to squish-faced dog 
+                    breeds (maybe because it's easier for them to give kisses when they don't have a big snout obstructing 
+                    them), so it's really no surprise that these little boys top the list. Plus, they're French, so they're 
+                    automatically classy.
                     </p>
                 </section>
                 <section>
                     <a name = "samoyed"></a>
-                    <h2>Samoyed</h2>
-                    <h3>"Something something something"</h3>
-                    <picture>
-                        <img class = "left-image" src = "images/samoyed-1.jpg"/>
-                        <a href = "http://www.akc.org/dog-breeds/samoyed/">
-                            <img class = "center-image" src = "images/samoyed-2.jpg"/>
-                        </a>
-                        <img class = "right-image" src = "images/samoyed-3.jpg"/>
-                    </picture>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin 
-                    efficitur placerat. Aliquam tincidunt, lacus eu pharetra tristique, mauris purus 
-                    iaculis neque, eu commodo diam augue a arcu. Pellentesque habitant morbi tristique 
-                    senectus et netus et malesuada fames ac turpis egestas. In sit amet malesuada diam, 
-                    eu mollis elit. Fusce ut mi nec erat faucibus sagittis a interdum magna. Integer 
-                    molestie consequat tortor, et varius felis ullamcorper in. Nullam ut ante at ex 
-                    aliquet gravida non a leo. Nunc non pellentesque diam.
+                    <div class = "sam-header-container">
+                        <img class = "breed-header-img" src = "typography/samoyed.png"/>
+                        <div class = "quote-container">
+                            <h3 class = "breed-quote">"a creature of boundless light"
+                        </div>
+                    </div>
+                    <p class = "breed-blurb">
+                        <img class = "profile-pic" src = "images/profile/samoyed-profile.png"/>
+                        <a class = "profile-link" target = "_blank" 
+                        href = "http://www.akc.org/dog-breeds/samoyed/">click for info</a>
+                    Is that a... a cloud? A marshmallow? Wait... now three little black dots have come into focus. Oh my god, 
+                    that's a dog. And what a dog it is! Majestic, noble, yet fluffy as all get out and the purest white fur you 
+                    can find outside of the arctic circle make this dog one of the most wonderful dog breeds to exist. The white 
+                    fur also adds an additional bonus: it's really easy to splash some color on there and make a Samoyed look 
+                    like a mystical creature from another dimension.
                     </p>
                 </section>
                 <section>
                     <a name = "basset-hound"></a>
-                    <h2>Basset Hound</h2>
-                    <h3>"Something something something"</h3>
-                    <picture>
-                        <img class = "left-image" src = "images/basset-hound-1.jpg"/>
-                        <a href = "http://www.akc.org/dog-breeds/basset-hound/">
-                            <img class = "center-image" src = "images/basset-hound-2.jpg"/>
-                        </a>
-                        <img class = "right-image" src = "images/basset-hound-3.jpg"/>
-                    </picture>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin 
-                    efficitur placerat. Aliquam tincidunt, lacus eu pharetra tristique, mauris purus 
-                    iaculis neque, eu commodo diam augue a arcu. Pellentesque habitant morbi tristique 
-                    senectus et netus et malesuada fames ac turpis egestas. In sit amet malesuada diam, 
-                    eu mollis elit. Fusce ut mi nec erat faucibus sagittis a interdum magna. Integer 
-                    molestie consequat tortor, et varius felis ullamcorper in. Nullam ut ante at ex 
-                    aliquet gravida non a leo. Nunc non pellentesque diam.
+                    <div class = "bh-header-container">
+                        <img class = "breed-header-img" src = "typography/basset-hound.png"/>
+                        <div class = "quote-container">
+                            <h3 class = "breed-quote">"droopy by nature, yet persistent"</h3>
+                        </div>
+                    </div>
+                    <p class = "breed-blurb">
+                        <img class = "profile-pic" src = "images/profile/basset-hound-profile.png"/>
+                        <a class = "profile-link" target = "_blank" 
+                        href = "http://www.akc.org/dog-breeds/basset-hound/">click for info</a>
+                    Basset hounds are great because they always have a positive attitude. You sort of have to be relentlessly 
+                    positive if you're born with ears meant for an elephant attached to a head no bigger than a softball. But 
+                    they make it work so well! Sure, a windy day might blow their ears all over the place like two small wind socks, 
+                    but that only adds to the basset hound's charm. This is a 10/10 dog.
                     </p>
                 </section>
                 <section>
                     <a name = "australian-shepherd"></a>
-                    <h2>Australian Shepherd</h2>
-                    <h3>"Something something something"</h3>
-                    <picture>
-                        <img class = "left-image" src = "images/aus-shepherd-1.jpg"/>
-                        <a href = "http://www.akc.org/dog-breeds/australian-shepherd/">
-                            <img class = "center-image" src = "images/aus-shepherd-2.jpg"/>
-                        </a>
-                        <img class = "right-image" src = "images/aus-shepherd-3.jpg"/>
-                    </picture>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin 
-                    efficitur placerat. Aliquam tincidunt, lacus eu pharetra tristique, mauris purus 
-                    iaculis neque, eu commodo diam augue a arcu. Pellentesque habitant morbi tristique 
-                    senectus et netus et malesuada fames ac turpis egestas. In sit amet malesuada diam, 
-                    eu mollis elit. Fusce ut mi nec erat faucibus sagittis a interdum magna. Integer 
-                    molestie consequat tortor, et varius felis ullamcorper in. Nullam ut ante at ex 
-                    aliquet gravida non a leo. Nunc non pellentesque diam.
+                    <div class = "aus-header-container">
+                        <img class = "breed-header-img" src = "typography/aus-shepherd.png"/>
+                        <div class = "quote-container">
+                            <h3 class = "breed-quote">"a dog fit for a divine huntress"</h3>
+                        </div>
+                    </div>
+                    <p class = "breed-blurb">
+                        <img class = "profile-pic" src = "images/profile/aus-profile.png"/>
+                        <a class = "profile-link" target = "_blank" 
+                        href = "http://www.akc.org/dog-breeds/australian-shepherd/">click for info</a>
+                    Am I the only one who thinks these dogs look like they're some warrior-dog companion that can control the 
+                    earthly elements with its mind? Yes? Okay, fine. But you've got to admit that these dogs look awesome. The 
+                    gray and black striations leading into white and brown patches gives the Australian shepherd a sort of 
+                    superhero-esque look. Attach a cape to one of these dogs and you have your brand new cuddly comic book 
+                    character. 
                     </p>
                 </section>
                 <section>
                     <a name = "shiba-inu"></a>
-                    <h2>Shiba Inu</h2>
-                    <h3>"Something something something"</h3>
-                    <picture>
-                        <img class = "left-image" src = "images/shiba-inu-1.jpg"/>
-                        <a href = "http://www.akc.org/dog-breeds/shiba-inu/">
-                            <img class = "center-image" src = "images/shiba-inu-2.jpg"/>
-                        </a>
-                        <img class = "right-image" src = "images/shiba-inu-3.jpg"/>
-                    </picture>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin 
-                    efficitur placerat. Aliquam tincidunt, lacus eu pharetra tristique, mauris purus 
-                    iaculis neque, eu commodo diam augue a arcu. Pellentesque habitant morbi tristique 
-                    senectus et netus et malesuada fames ac turpis egestas. In sit amet malesuada diam, 
-                    eu mollis elit. Fusce ut mi nec erat faucibus sagittis a interdum magna. Integer 
-                    molestie consequat tortor, et varius felis ullamcorper in. Nullam ut ante at ex 
-                    aliquet gravida non a leo. Nunc non pellentesque diam.
+                    <div class = "shi-header-container">
+                        <img class = "breed-header-img" src = "typography/shiba-inu.png"/>
+                        <div class = "quote-container">
+                            <h3 class = "breed-quote">"refined, with a touch of goofiness"</h3>
+                        </div>
+                    </div>
+                    <p class = "breed-blurb">
+                        <img class = "profile-pic" src = "images/profile/shiba-inu-profile.png"/>
+                        <a class = "profile-link" target = "_blank" 
+                        href = "http://www.akc.org/dog-breeds/shiba-inu/">click for info</a>
+                    Shiba Inus look more refined and aloof than even the haughtiest of aristocrats. There's no such thing
+                    as a Shiba that isn't photogenic; go ahead, try and find a bad picture of this dog, <strong>I dare you.</strong> 
+                    Give up? Yeah, that's because it can't be done. But Shibas are more than just refined and good picture 
+                    models. They're also silly and fun and they have squeezable cheeks. All in all, definitely a great dog.
                     </p>
                 </section>
                 <section>
                     <a name = "basenji"></a>
-                    <h2>Basenji</h2>
-                    <h3>"Something something something"</h3>
-                    <picture>
-                        <img class = "left-image" src = "images/basenji-1.jpg"/>
-                        <a href = "http://www.akc.org/dog-breeds/basenji/">
-                            <img class = "center-image" src = "images/basenji-2.jpg"/>
-                        </a>
-                        <img class = "right-image" src = "images/basenji-3.jpg"/>
-                    </picture>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin 
-                    efficitur placerat. Aliquam tincidunt, lacus eu pharetra tristique, mauris purus 
-                    iaculis neque, eu commodo diam augue a arcu. Pellentesque habitant morbi tristique 
-                    senectus et netus et malesuada fames ac turpis egestas. In sit amet malesuada diam, 
-                    eu mollis elit. Fusce ut mi nec erat faucibus sagittis a interdum magna. Integer 
-                    molestie consequat tortor, et varius felis ullamcorper in. Nullam ut ante at ex 
-                    aliquet gravida non a leo. Nunc non pellentesque diam.
+                    <div class = "bas-header-container">
+                        <img class = "breed-header-img" src = "typography/basenji.png"/>
+                        <div class = "quote-container">
+                            <h3 class = "breed-quote">"pointier than a dodecahedron"</h3>
+                        </div>
+                    </div>
+                    <p class = "breed-blurb">
+                        <img class = "profile-pic" src = "images/profile/basenji-profile.png"/>
+                        <a class = "profile-link" target = "_blank" 
+                        href = "http://www.akc.org/dog-breeds/basenji/">click for info</a>
+                    Originally bred on the plains of the African savannah to hunt game, these dogs are alert, attentive, and 
+                    are especially suited for lots of outside activity. Instead of barking, Basenjis let out a high-pitched howl 
+                    that sounds really strange (but is also very cool). Additionally, Basenjis are not a particularly common 
+                    breed, so having one of these little guys by your side is sure to turn heads on the street.
                     </p>
                 </section>
                 <section>
                     <a name = "pug"></a>
-                    <h2>Pug</h2>
-                    <h3>"Something something something"</h3>
-                    <picture>
-                        <img class = "left-image" src = "images/pug-1.jpg"/>
-                        <a href = "http://www.akc.org/dog-breeds/pug/">
-                            <img class = "center-image" src = "images/pug-2.jpg"/>
-                        </a>
-                        <img class = "right-image" src = "images/pug-3.jpg"/>
-                    </picture>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin 
-                    efficitur placerat. Aliquam tincidunt, lacus eu pharetra tristique, mauris purus 
-                    iaculis neque, eu commodo diam augue a arcu. Pellentesque habitant morbi tristique 
-                    senectus et netus et malesuada fames ac turpis egestas. In sit amet malesuada diam, 
-                    eu mollis elit. Fusce ut mi nec erat faucibus sagittis a interdum magna. Integer 
-                    molestie consequat tortor, et varius felis ullamcorper in. Nullam ut ante at ex 
-                    aliquet gravida non a leo. Nunc non pellentesque diam.
+                    <div class = "pug-header-container">
+                        <img class = "breed-header-img" src = "typography/pug.png"/>
+                        <div class = "quote-container">
+                            <h3 class = "breed-quote">"clumsily sincere and sincerely clumsy"</h3>
+                        </div>
+                    </div>
+                    <p class = "breed-blurb">
+                        <img class = "profile-pic" src = "images/profile/pug-profile.png"/>
+                        <a class = "profile-link" target = "_blank" 
+                        href = "http://www.akc.org/dog-breeds/pug/">click for info</a>
+                    Ah, the humble pug. Compact, curious, and something of a clown. Pugs are the squish-faced 
+                    little comedians of the canine world - they're like ultra-dense neutron stars if neutron stars 
+                    were made of joy and laughter instead of hot gaseous elements. On a scale from 1 to Good Dog, pugs 
+                    top the scale, snorting and clumsily bounding along the way.
                     </p>
                 </section>
             </article>
         </main>
         <footer>
-            <p>Built for LaunchCode Assignment "HTML Me Something"</p>
-            <p>&#169; 2017 Sean Stevens</p>
+            <div id = "copyright">
+                <p>Built for LaunchCode Assignment "HTML Me Something"</p>
+                <p>&#169; 2017 Sean Stevens</p>
+            </div>
     </body>
 </html>
