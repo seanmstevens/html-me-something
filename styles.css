@@ -28,7 +28,7 @@ h2 {
 /* title blur CSS */
 
 #bg, #title-bg {
-    background-image: url("images/header-image.jpg");
+    background-image: url("images/header-image-small.jpg");
     background-repeat: no-repeat;
     background-size: 70em auto;
 }
